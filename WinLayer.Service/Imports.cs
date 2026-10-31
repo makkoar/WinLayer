@@ -1,0 +1,10 @@
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Hosting;
+global using Microsoft.Extensions.Logging;
+global using Microsoft.Win32.SafeHandles;
+global using System.IO.Pipes;
+global using System.Runtime.InteropServices;
+global using System.Security.AccessControl;
+global using System.Security.Principal;
+global using System.Text;
+global using WinLayer.Contracts;

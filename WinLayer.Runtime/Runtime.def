@@ -1,0 +1,3 @@
+LIBRARY "WinLayer.Runtime.dll"
+EXPORTS
+    WinLayerQuery

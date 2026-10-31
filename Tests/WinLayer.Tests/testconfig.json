@@ -1,0 +1,13 @@
+{
+  "platformOptions": {
+    "coverlet": {
+      "include": "[WinLayer.*]*",
+      "exclude": "[WinLayer.Tests]*",
+      "format": "json",
+      "includeTestAssembly": false,
+      "skipAutoProps": false,
+      "thresholdType": "line,branch,method",
+      "thresholdStat": "Minimum"
+    }
+  }
+}

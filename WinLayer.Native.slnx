@@ -1,0 +1,17 @@
+<Solution>
+
+	<Configurations>
+		<Platform Name="Win32" />
+		<Platform Name="x64" />
+	</Configurations>
+
+	<Project Path="WinLayer.Driver/WinLayer.Driver.vcxproj" Type="bc8a1ffa-bee3-4634-8014-f334798102b3">
+		<Platform Project="x64" />
+		<Build Solution="*|Win32" Project="false" />
+	</Project>
+
+	<Project Path="WinLayer.Probe/WinLayer.Probe.vcxproj" Type="bc8a1ffa-bee3-4634-8014-f334798102b3" />
+
+	<Project Path="WinLayer.Runtime/WinLayer.Runtime.vcxproj" Type="bc8a1ffa-bee3-4634-8014-f334798102b3" />
+
+</Solution>

@@ -1,0 +1,8 @@
+<Project>
+
+	<Target Name="WinLayerCheckCoverageBeforePublish" BeforeTargets="PrepareForPublish" Condition="'$(MSBuildProjectExtension)' == '.csproj' and '$(IsTestProject)' != 'true' and '$(IsPublishable)' != 'false'">
+		<Error Condition="'$(OS)' != 'Windows_NT'" Text="Публикация WinLayer требует проверки полного покрытия на Windows." />
+		<Exec Command="pwsh -NoProfile -File &quot;$(MSBuildThisFileDirectory)Build\Test-Coverage.ps1&quot; -Configuration &quot;$(Configuration)&quot; -RequireFullCoverage" StdOutEncoding="UTF-8" StdErrEncoding="UTF-8" />
+	</Target>
+
+</Project>

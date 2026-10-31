@@ -7,6 +7,13 @@
 	<!-- Сторонние анализаторы кода. -->
 	<ItemGroup>
 		<PackageVersion Include="SonarAnalyzer.CSharp" Version="10.35.0.4138" />
+		<PackageVersion Include="Avalonia" Version="12.1.4" />
+		<PackageVersion Include="Avalonia.Desktop" Version="12.1.4" />
+		<PackageVersion Include="Avalonia.Themes.Fluent" Version="12.1.4" />
+		<PackageVersion Include="Microsoft.Extensions.Hosting" Version="10.0.14" />
+		<PackageVersion Include="Microsoft.Extensions.Hosting.WindowsServices" Version="10.0.14" />
+		<PackageVersion Include="xunit.v3.mtp-v2" Version="4.0.2" />
+		<PackageVersion Include="coverlet.MTP" Version="10.1.0" />
 	</ItemGroup>
 
 </Project>

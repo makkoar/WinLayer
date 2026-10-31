@@ -1,0 +1,17 @@
+<Solution>
+
+	<Project Path="WinLayer.Contracts/WinLayer.Contracts.csproj" />
+
+	<Project Path="WinLayer.Client/WinLayer.Client.csproj" />
+
+	<Project Path="WinLayer.Service/WinLayer.Service.csproj" />
+
+	<Project Path="WinLayer.App/WinLayer.App.csproj" />
+
+	<Project Path="WinLayer.Cli/WinLayer.Cli.csproj" />
+
+	<Folder Name="/Tests/">
+		<Project Path="Tests/WinLayer.Tests/WinLayer.Tests.csproj" />
+	</Folder>
+
+</Solution>

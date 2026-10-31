@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net10.0-windows</TargetFramework>
+		<PlatformTarget>x64</PlatformTarget>
+		<IsPackable>false</IsPackable>
+		<IsTestProject>true</IsTestProject>
+		<IsPublishable>false</IsPublishable>
+		<UseMicrosoftTestingPlatformRunner>true</UseMicrosoftTestingPlatformRunner>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="xunit.v3.mtp-v2" />
+		<PackageReference Include="coverlet.MTP" PrivateAssets="all" />
+		<ProjectReference Include="../../WinLayer.Contracts/WinLayer.Contracts.csproj" />
+		<ProjectReference Include="../../WinLayer.Client/WinLayer.Client.csproj" />
+		<ProjectReference Include="../../WinLayer.Service/WinLayer.Service.csproj" />
+		<ProjectReference Include="../../WinLayer.Cli/WinLayer.Cli.csproj" />
+		<ProjectReference Include="../../WinLayer.App/WinLayer.App.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="testconfig.json" CopyToOutputDirectory="PreserveNewest" />
+	</ItemGroup>
+
+</Project>

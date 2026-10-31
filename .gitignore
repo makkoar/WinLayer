@@ -3,6 +3,7 @@
 [Oo]bj/
 artifacts/
 TestResults/
+packages.lock.json
 *.log
 
 # Локальные настройки среды разработки

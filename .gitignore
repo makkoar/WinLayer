@@ -1,0 +1,22 @@
+# Результаты сборки и проверки
+[Bb]in/
+[Oo]bj/
+artifacts/
+TestResults/
+*.log
+
+# Локальные настройки среды разработки
+.vs/
+.idea/
+*.user
+*.suo
+*.local
+*.local.*
+
+# Локальная конфигурация и ключи
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key

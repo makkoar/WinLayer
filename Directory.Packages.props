@@ -1,0 +1,12 @@
+<Project>
+
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+
+	<!-- Сторонние анализаторы кода. -->
+	<ItemGroup>
+		<PackageVersion Include="SonarAnalyzer.CSharp" Version="10.35.0.4138" />
+	</ItemGroup>
+
+</Project>

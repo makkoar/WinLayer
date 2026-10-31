@@ -1,0 +1,26 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+
+[*.{bat,cmd,ps1,sln,slnx,csproj,json}]
+end_of_line = crlf
+
+[*.{csproj,props}]
+indent_style = tab
+
+[*.cs]
+dotnet_diagnostic.IDE0046.severity = none
+
+dotnet_style_allow_multiple_blank_lines_experimental = false
+
+dotnet_diagnostic.IDE0028.severity = error
+dotnet_diagnostic.IDE0090.severity = error
+dotnet_diagnostic.IDE2000.severity = error
+
+dotnet_diagnostic.S112.severity = error
+dotnet_diagnostic.S8969.severity = error
+
+dotnet_diagnostic.xUnit1051.severity = error

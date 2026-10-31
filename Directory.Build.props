@@ -1,0 +1,16 @@
+<Project>
+
+	<PropertyGroup>
+		<LangVersion>14.0</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+		<NoWarn>$(NoWarn);1701;1702;S1939;S1192;NU1507</NoWarn>
+	</PropertyGroup>
+
+	<!-- Сторонние пакеты. -->
+	<ItemGroup>
+		<PackageReference Include="SonarAnalyzer.CSharp" PrivateAssets="all" />
+	</ItemGroup>
+
+</Project>
